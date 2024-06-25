@@ -4,7 +4,8 @@ body {
     background-size: cover;
     background-position: center;
     font-family: "Sora", sans-serif;
-    position: relative;
+    display:flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
 }
@@ -83,6 +84,7 @@ footer{
     background-color: black;
     text-align: center;
     padding: 10px 0;
+    margin-top: auto;
 }
 
 @media screen and (min-width: 500px) {
@@ -98,17 +100,18 @@ footer{
 
     .card {
         margin: 20px;
-        width: 300px;
+        width: 250px;
         padding: 40px;
+        overflow: hidden;
     }
 
     .card h3 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .card p {
         font-weight: 400;
-        font-size: 20px;
+        font-size: 18px;
     }
     
     .card a{
